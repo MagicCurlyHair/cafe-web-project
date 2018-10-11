@@ -1,0 +1,27 @@
+{
+  "name": "cafe-web-project",
+  "version": "1.0.0",
+  "description": "Design for a cafe website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicCurlyHair/cafe-web-project.git"
+  },
+  "keywords": [
+    "cafe",
+    "coffee",
+    "website"
+  ],
+  "author": "MagicCurlyHair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagicCurlyHair/cafe-web-project/issues"
+  },
+  "homepage": "https://github.com/MagicCurlyHair/cafe-web-project#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}

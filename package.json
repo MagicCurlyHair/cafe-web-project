@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/MagicCurlyHair/cafe-web-project/issues"
   },
-  "homepage": "https://github.com/MagicCurlyHair/cafe-web-project#readme",
+  "homepage": "https://github.com/MagicCurlyHair/cafe-web-project/tree/gh-pages/index.html",
   "dependencies": {
     "normalize.css": "^8.0.0"
   }

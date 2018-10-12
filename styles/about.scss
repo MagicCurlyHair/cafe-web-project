@@ -22,7 +22,7 @@ body {
 
 .nav-bar ul {
   display: flex;
-  width: 40%;
+  width: 700px;
   justify-content: space-around;
   padding-top: 30px;
   font-size: 1.5em;
@@ -30,11 +30,19 @@ body {
   list-style: none;
 }
 
+.nav-bar ul li button {
+  border: none;
+  outline: none;
+  color: inherit;
+  background: inherit;
+  cursor: pointer;
+}
+
 .logo {
   font-size: 1.8em;
 }
 
-.section-image {
+.section-main {
   display: grid;
   grid-template-rows: 1fr 5fr 1fr;
   grid-template-columns: 2fr 5fr 2fr;
@@ -68,4 +76,26 @@ body {
 .img-div {
   float: right;
   margin: 17px 10px 0;
+}
+
+.menu {
+  display: none;
+  grid-area: 2 / 2 / span 1 / span 1;
+  width: 100%;
+  margin: 0 auto;
+  border: thin solid $font-main-white;
+  border-radius: 5px;
+  color: $font-main-black;
+  background-color: $font-main-white;
+}
+
+.contact {
+  display: none;
+  grid-area: 2 / 2 / span 1 / span 1;
+  width: 100%;
+  margin: 0 auto;
+  border: thin solid $font-main-white;
+  border-radius: 5px;
+  color: $font-main-black;
+  background-color: $font-main-white;
 }
